@@ -1,5 +1,10 @@
 export class GalacticCalc {
-  constructor(date) {
-    this.date = new Date(date);
+  
+  constructor() {
+  }
+
+  earth(age) {
+    let earthAge = Math.floor(age/1);
+    return earthAge;
   }
 }
