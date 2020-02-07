@@ -19,7 +19,7 @@ _A user inputs their age in earth years and the application will display the fol
 
 | Behavior | Input | Output |
 |---|:---:|:---:|
-|User inputs their age as a number |29|29|
+|User inputs date of birth and DOB is converted to a total number of years from present |1990, 11, 27|29|
 |Return age in Mercury's Earth years|29|120.28|
 |Return age in Venus's Earth years|29|47.04|
 |Return age in Mars's Earth years|29|15.41|
