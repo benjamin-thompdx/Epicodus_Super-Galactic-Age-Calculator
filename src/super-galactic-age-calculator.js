@@ -1,5 +1,5 @@
 export class SuperGalc {
-  constructor(age) {
-    this.age = new Age(age);
+  constructor(date) {
+    this.date = new Date(date);
   }
 }
