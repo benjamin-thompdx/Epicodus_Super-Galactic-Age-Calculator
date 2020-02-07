@@ -6,7 +6,7 @@ describe('GalacticCalc', function() {
   let age = new GalacticCalc;
 
   test('should take in a number for age', function () {
-    expect(age.earth(29)).toEqual("alien");
+    expect(age.earth(29)).toEqual(29);
   });
 
   //Mercury
