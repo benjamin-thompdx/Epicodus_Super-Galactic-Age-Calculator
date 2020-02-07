@@ -1,0 +1,1 @@
+import { SuperGalc } from './../src/super-galactic-age-calculator.js;
