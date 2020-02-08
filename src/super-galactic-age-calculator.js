@@ -36,10 +36,15 @@ export class GalacticCalc {
   getMars(age) {
     let marsAge = Math.floor((age*365)/687);
     return marsAge;
-    }
+  }
+
+  getLexMars(age) {
+    let exMarsAge = Math.floor((78.93-age)*365/687);
+    return exMarsAge;
+  }
 
   getJupiter(age) {
     let jupiterAge = Math.floor(age/12);
     return jupiterAge;
-    }
+  }
 }
