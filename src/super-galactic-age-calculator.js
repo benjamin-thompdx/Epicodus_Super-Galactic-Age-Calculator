@@ -17,4 +17,9 @@ export class GalacticCalc {
     let venusAge = Math.floor((age*365)/225);
     return venusAge;
     }
+  
+  getMars(age) {
+    let marsAge = Math.floor((age*365)/687);
+    return marsAge;
+    }
 }

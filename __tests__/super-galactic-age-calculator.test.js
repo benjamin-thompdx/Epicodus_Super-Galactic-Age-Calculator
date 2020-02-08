@@ -8,16 +8,20 @@ describe('GalacticCalc', function() {
     expect(age.getEarth(29)).toEqual(29);
   });
 
-  //Mercury
+  //Mercury Calculations
   test('should return age for Mercury in Earth years', function () {
     expect(age.getMercury(29)).toEqual(120);
   });
 
-  //Venus
+  //Venus Calculations
   test('should return age for Venus in Earth years', function () {
     expect(age.getVenus(29)).toEqual(47);
   });
-  //Mars
 
-  //Jupiter
+  //Mars Calculations
+  test('should return age for Mars in Earth years', function () {
+    expect(age.getMars(29)).toEqual(14);
+  });
+
+  //Jupiter Calculations
 })
