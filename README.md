@@ -20,10 +20,10 @@ _A user inputs their age in earth years and the application will display the fol
 | Behavior | Input | Output |
 |---|:---:|:---:|
 |User inputs their date of birth as a number |29|29|
-|Return age in Mercury's Earth years|29|120.28|
-|Return age in Venus's Earth years|29|47.04|
-|Return age in Mars's Earth years|29|15.41|
-|Return age in Jupiter's Earth years|29|2.42|
+|Return age in Mercury's Earth years|29|120|
+|Return age in Venus's Earth years|29|47|
+|Return age in Mars's Earth years|29|15|
+|Return age in Jupiter's Earth years|29|2|
 |Return the number of years the user has to live based on U.S. 2020 average lifespan ```78.93``` in Mercury's Earth years|29|207.1|
 |Return the number of years the user has to live based on U.S. 2020 average lifespan ```78.93``` in Venus's Earth years|29|80.98|
 |Return the number of years the user has to live based on U.S. 2020 average lifespan ```78.93``` in Mars's Earth years|29|26.53|
