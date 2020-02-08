@@ -39,7 +39,7 @@ describe('GalacticCalc', function() {
   });
 
   test('should return the amount of years the user has lived over the average for Venus to Earth years', function () {
-    expect(age.getLexVenus(82)).toEqual(-4);
+    expect(age.getLexVenus(82)).toEqual(-5);
   });
 
   //Mars Calculations
