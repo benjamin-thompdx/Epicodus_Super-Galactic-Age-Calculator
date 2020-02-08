@@ -10,7 +10,7 @@ describe('GalacticCalc', function() {
 
   //Mercury
   test('should return age for Mercury in Earth years', function () {
-    expect(age.getMercury(29)).toEqual(130);
+    expect(age.getMercury(29)).toEqual(120);
   });
 
   //Venus
