@@ -51,6 +51,10 @@ describe('GalacticCalc', function() {
     expect(age.getLexMars(29)).toEqual(26);
   });
 
+  test('should return the amount of years the user has lived over the average for Mars to Earth years', function () {
+    expect(age.getLexMars(82)).toEqual(-1);
+  });
+
   //Jupiter Calculations
   test('should return age for Jupiter in Earth years', function () {
     expect(age.getJupiter(29)).toEqual(2);
