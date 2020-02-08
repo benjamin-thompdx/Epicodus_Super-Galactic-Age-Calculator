@@ -13,7 +13,7 @@ describe('GalacticCalc', function() {
   });
 
   test('should return the amount of years the user has lived over the average to Earth years', function () {
-    expect(age.overLexEarth(82)).toEqual(-4);
+    expect(age.getLexEarth(82)).toEqual(-4);
   });
 
   //Mercury Calculations
