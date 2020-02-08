@@ -25,6 +25,10 @@ describe('GalacticCalc', function() {
     expect(age.getLexMercury(29)).toEqual(207);
   });
 
+  test('should return the amount of years the user has lived over the average for Mercury to Earth years', function () {
+    expect(age.getLexMercury(82)).toEqual(-17);
+  });
+
   //Venus Calculations
   test('should return age for Venus in Earth years', function () {
     expect(age.getVenus(29)).toEqual(47);
