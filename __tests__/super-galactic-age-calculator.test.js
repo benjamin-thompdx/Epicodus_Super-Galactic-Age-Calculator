@@ -20,7 +20,7 @@ describe('GalacticCalc', function() {
 
   //Mars Calculations
   test('should return age for Mars in Earth years', function () {
-    expect(age.getMars(29)).toEqual(14);
+    expect(age.getMars(29)).toEqual(15);
   });
 
   //Jupiter Calculations
