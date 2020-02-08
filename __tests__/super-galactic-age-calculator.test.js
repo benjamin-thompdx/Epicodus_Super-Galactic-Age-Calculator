@@ -3,13 +3,17 @@ import { GalacticCalc } from './../src/super-galactic-age-calculator.js';
 describe('GalacticCalc', function() {
   let age = new GalacticCalc;
 
-  //Earth
+  //Earth Calculations
   test('should take in a number for age', function () {
     expect(age.getEarth(29)).toEqual(29);
   });
 
   test('should return the number of years the user has to live based on U.S. 2020 average lifespan 78.93 for Mercury in Earth years', function () {
     expect(age.getLexEarth(29)).toEqual(49);
+  });
+
+  test('should return the amount of years the user has lived over the average to Earth years', function () {
+    expect(age.overLexEarth(82)).toEqual(-6);
   });
 
   //Mercury Calculations
