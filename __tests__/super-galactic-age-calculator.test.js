@@ -8,6 +8,10 @@ describe('GalacticCalc', function() {
     expect(age.getEarth(29)).toEqual(29);
   });
 
+  test('should return the number of years the user has to live based on U.S. 2020 average lifespan 78.93 for Mercury in Earth years', function () {
+    expect(age.getLexEarth(29)).toEqual(500);
+  });
+
   //Mercury Calculations
   test('should return age for Mercury in Earth years', function () {
     expect(age.getMercury(29)).toEqual(120);
@@ -27,4 +31,4 @@ describe('GalacticCalc', function() {
   test('should return age for Jupiter in Earth years', function () {
     expect(age.getJupiter(29)).toEqual(2);
   });
-})
+});

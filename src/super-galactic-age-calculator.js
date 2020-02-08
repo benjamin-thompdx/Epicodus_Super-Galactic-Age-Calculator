@@ -8,6 +8,11 @@ export class GalacticCalc {
     return earthAge;
   }
 
+  getLexEarth(age) {
+    let exEarthAge = Math.floor((78.93-age)/1);
+    return exEarthAge;
+  }
+
   getMercury(age) {
   let mercuryAge = Math.floor((age*365)/88);
   return mercuryAge;
