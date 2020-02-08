@@ -18,7 +18,7 @@ describe('GalacticCalc', function() {
   });
 
   test('should return the number of years the user has to live based on U.S. 2020 average lifespan 78.93 for Mercury in Earth years', function () {
-    expect(age.getLexMercury(29)).toEqual(208);
+    expect(age.getLexMercury(29)).toEqual(207);
   });
 
   //Venus Calculations
