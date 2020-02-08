@@ -24,4 +24,7 @@ describe('GalacticCalc', function() {
   });
 
   //Jupiter Calculations
+  test('should return age for Jupiter in Earth years', function () {
+    expect(age.getJupiter(29)).toEqual(12);
+  });
 })
