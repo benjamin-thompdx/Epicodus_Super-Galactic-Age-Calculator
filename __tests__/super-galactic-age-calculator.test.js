@@ -36,7 +36,7 @@ describe('GalacticCalc', function() {
   });
 
   test('should return the number of years the user has to live based on U.S. 2020 average lifespan 78.93 for Mars in Earth years', function () {
-    expect(age.getLexMars(29)).toEqual(24);
+    expect(age.getLexMars(29)).toEqual(26);
   });
 
   //Jupiter Calculations
