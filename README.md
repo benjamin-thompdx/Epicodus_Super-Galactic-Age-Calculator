@@ -32,8 +32,8 @@ Return the number of years the user has to live based on U.S. 2020 average lifes
 |If a user's age surpasses the global average lifespan ```78.93``` it will convert the amount of years they have lived over the average to Earth years|82|-4|
 |If a user's age surpasses the global average lifespan ```78.93``` it will convert the amount of years they have lived over the average to Mercury's Earth years|82|-13|
 |If a user's age surpasses the global average lifespan ```78.93``` it will convert the amount of years they have lived over the average to Venus's Earth years|82|-5|
-|If a user's age surpasses the global average lifespan ```78.93``` it will convert the amount of years they have lived over the average to Mars's Earth years|82|-1|
-|If a user's age surpasses the global average lifespan ```78.93``` it will convert the amount of years they have lived over the average to Jupiter's Earth years|82|0|
+|If a user's age surpasses the global average lifespan ```78.93``` it will convert the amount of years they have lived over the average to Mars's Earth years|82|-2|
+|If a user's age surpasses the global average lifespan ```78.93``` it will convert the amount of years they have lived over the average to Jupiter's Earth years|82|-1|
 
 
 ## Setup/Installation Requirements
