@@ -65,6 +65,6 @@ describe('GalacticCalc', function() {
   });
 
   test('should return the amount of years the user has lived over the average for Jupiter to Earth years', function () {
-    expect(age.getLexJupiter(82)).toEqual(2);
+    expect(age.getLexJupiter(82)).toEqual(-1);
   });
 });
