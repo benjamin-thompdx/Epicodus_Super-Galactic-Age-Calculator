@@ -24,7 +24,7 @@ _A user inputs their age in earth years and the application will display the fol
 |Return age in Venus's Earth years|29|47|
 |Return age in Mars's Earth years|29|15|
 |Return age in Jupiter's Earth years|29|2|
-Return the number of years the user has to live based on U.S. 2020 average lifespan ```78.93``` in Earth years|29|50|
+Return the number of years the user has to live based on U.S. 2020 average lifespan ```78.93``` in Earth years|29|49|
 |Return the number of years the user has to live based on U.S. 2020 average lifespan ```78.93``` in Mercury's Earth years|29|207|
 |Return the number of years the user has to live based on U.S. 2020 average lifespan ```78.93``` in Venus's Earth years|29|81|
 |Return the number of years the user has to live based on U.S. 2020 average lifespan ```78.93``` in Mars's Earth years|29|27|
