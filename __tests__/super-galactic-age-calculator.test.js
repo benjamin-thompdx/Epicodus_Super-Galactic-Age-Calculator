@@ -26,6 +26,10 @@ describe('GalacticCalc', function() {
     expect(age.getVenus(29)).toEqual(47);
   });
 
+  test('should return the number of years the user has to live based on U.S. 2020 average lifespan 78.93 for Venus in Earth years', function () {
+    expect(age.getLexVenus(29)).toEqual(40);
+  });
+
   //Mars Calculations
   test('should return age for Mars in Earth years', function () {
     expect(age.getMars(29)).toEqual(15);
