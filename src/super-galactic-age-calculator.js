@@ -9,7 +9,12 @@ export class GalacticCalc {
   }
 
   getMercury(age) {
-  let earthAge = Math.floor((age*365)/88);
-  return earthAge;
+  let mercuryAge = Math.floor((age*365)/88);
+  return mercuryAge;
   }
+
+  getVenus(age) {
+    let venusAge = Math.floor((age*365)/225);
+    return venusAge;
+    }
 }
