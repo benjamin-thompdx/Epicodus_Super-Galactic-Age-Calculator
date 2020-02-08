@@ -26,7 +26,7 @@ describe('GalacticCalc', function() {
   });
 
   test('should return the amount of years the user has lived over the average for Mercury to Earth years', function () {
-    expect(age.getLexMercury(82)).toEqual(-17);
+    expect(age.getLexMercury(82)).toEqual(-13);
   });
 
   //Venus Calculations
