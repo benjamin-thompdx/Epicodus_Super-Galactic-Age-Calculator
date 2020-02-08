@@ -43,4 +43,8 @@ describe('GalacticCalc', function() {
   test('should return age for Jupiter in Earth years', function () {
     expect(age.getJupiter(29)).toEqual(2);
   });
+
+  test('should return the number of years the user has to live based on U.S. 2020 average lifespan 78.93 for Jupiter in Earth years', function () {
+    expect(age.getLexJupiter(29)).toEqual(6);
+  });
 });

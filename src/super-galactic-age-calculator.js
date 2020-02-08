@@ -47,4 +47,9 @@ export class GalacticCalc {
     let jupiterAge = Math.floor(age/12);
     return jupiterAge;
   }
+
+  getLexJupiter(age) {
+    let exJupiterAge = Math.floor((78.93-age)/12);
+    return exJupiterAge;
+  }
 }
