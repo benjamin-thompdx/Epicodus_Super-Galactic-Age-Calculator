@@ -3,6 +3,7 @@ export class GalacticCalc {
   constructor() {
   }
 
+  //Earth
   getEarth(age) {
     let earthAge = Math.floor(age/1);
     return earthAge;
@@ -13,6 +14,7 @@ export class GalacticCalc {
     return exEarthAge;
   }
 
+  //Mercury
   getMercury(age) {
   let mercuryAge = Math.floor((age*365)/88);
   return mercuryAge;
@@ -23,6 +25,7 @@ export class GalacticCalc {
     return exMercuryAge;
   }
 
+  //Venus
   getVenus(age) {
     let venusAge = Math.floor((age*365)/225);
     return venusAge;
@@ -32,7 +35,7 @@ export class GalacticCalc {
     let exVenusAge = Math.floor((78.93-age)*365/225);
     return exVenusAge;
   }
-  
+  //Mars
   getMars(age) {
     let marsAge = Math.floor((age*365)/687);
     return marsAge;
@@ -43,6 +46,7 @@ export class GalacticCalc {
     return exMarsAge;
   }
 
+  //Jupiter
   getJupiter(age) {
     let jupiterAge = Math.floor(age/12);
     return jupiterAge;
@@ -52,5 +56,4 @@ export class GalacticCalc {
     let exJupiterAge = Math.floor((78.93-age)/12);
     return exJupiterAge;
   }
-
 }
