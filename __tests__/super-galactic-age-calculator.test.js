@@ -15,7 +15,7 @@ describe('GalacticCalc', function() {
 
   //Venus
   test('should return age for Venus in Earth years', function () {
-    expect(age.getVenus(29)).toEqual(4);
+    expect(age.getVenus(29)).toEqual(47);
   });
   //Mars
 
